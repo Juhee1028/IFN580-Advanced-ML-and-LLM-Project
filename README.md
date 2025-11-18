@@ -10,7 +10,7 @@ The assessment covers several advanced machine learning topics, but
 - **BERT text classification**
 - **T5 question–answer generation**
 
-Other components of the assignment (EDA, dimensionality reduction, clustering)  
+Other components of the assignment (dimensionality reduction, clustering)  
 were completed by teammates and are **not** included here.
 
 ---
@@ -36,14 +36,13 @@ While the report and some analysis were completed as a team, **the majority of i
 ```
 IFN580-Advanced-ML-and-LLM-Project/
 ├── notebooks/
-│   ├── 04_lstm_forecasting.ipynb        # my main contribution
-│   ├── 05_bert_finetuning.ipynb         # my contribution
-│   ├── 06_t5_qna.ipynb                  # my contribution
+│   ├── 03_lstm_forecasting.ipynb        # my main contribution
+│   ├── 04_bert_finetuning.ipynb         # my contribution
+│   ├── 05_t5_qna.ipynb                  # my contribution
 │
 │   # Not included (team work):
-│   # 01_eda.ipynb
-│   # 02_dimensionality_reduction.ipynb
-│   # 03_clustering.ipynb
+│   # 01_dimensionality_reduction.ipynb
+│   # 02_clustering.ipynb
 │
 ├── report/
 │   └── IFN580_Assignment2_Report.pdf
