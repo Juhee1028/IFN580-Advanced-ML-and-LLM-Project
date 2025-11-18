@@ -1,15 +1,17 @@
 # IFN580 – Advanced Machine Learning & LLM Project (High Distinction)
 
 ## Overview
-This repository contains my individual work for the IFN580 Assignment 2 project at the Queensland University of Technology (QUT).  
-The assessment explores multiple advanced machine learning techniques across different domains:
+This repository contains **my individual work** for IFN580 Assignment 2 at Queensland University of Technology (QUT).
 
-- Dimensionality reduction (PCA, t-SNE, UMAP)
-- Unsupervised learning & clustering (K-means, Hierarchical, DBSCAN)
-- **Time-series forecasting using LSTM**
-- **NLP modelling using BERT and T5 (LLM)**
+The assessment covers several advanced machine learning topics, but  
+**this repository ONLY includes the work that I personally completed**, specifically:
 
-This repository includes only my own contributions, reproduced and cleaned for portfolio use.
+- **LSTM time-series forecasting (primary contribution)**
+- **BERT text classification**
+- **T5 question–answer generation**
+
+Other components of the assignment (EDA, dimensionality reduction, clustering)  
+were completed by teammates and are **not** included here.
 
 ---
 
@@ -34,15 +36,19 @@ While the report and some analysis were completed as a team, **the majority of i
 ```
 IFN580-Advanced-ML-and-LLM-Project/
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_dimensionality_reduction.ipynb
-│   ├── 03_clustering.ipynb
-│   ├── 04_lstm_forecasting.ipynb          # my main contribution
-│   ├── 05_bert_t5_nlp.ipynb               # shared contribution (my code only)
+│   ├── 04_lstm_forecasting.ipynb        # my main contribution
+│   ├── 05_bert_finetuning.ipynb         # my contribution
+│   ├── 06_t5_qna.ipynb                  # my contribution
+│
+│   # Not included (team work):
+│   # 01_eda.ipynb
+│   # 02_dimensionality_reduction.ipynb
+│   # 03_clustering.ipynb
+│
 ├── report/
 │   └── IFN580_Assignment2_Report.pdf
 ├── data/
-│   └── README.md                          # dataset not included
+│   └── README.md                        # dataset not included
 └── README.md
 ```
 
